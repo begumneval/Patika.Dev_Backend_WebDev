@@ -11,10 +11,10 @@ public class StarTriangle {
         System.out.print("Basamak sayısını giriniz: ");
         int num = scanner.nextInt();
 
-        /* ilk olarak basamak sayısı kadar * yazdırıp birer azaltarak
+        /* ilk olarak * yazdırıp ikişer azaltarak
         alt satıra geçen patterni oluşturmak için kullanılan iç içe döngü */
         for (int i = num; i > 0; i--) {
-            for (int j = 0; j < i; j++) {
+            for (int j = 0; j < (i*2-1); j++) {
                 System.out.print("*");
 
             }
